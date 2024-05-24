@@ -72,15 +72,15 @@ function App() {
         </nav>
       </div>
       <div className='row mt-5 mt-md-0'>
-        <div className="ratio ratio-16x9 position-relative d-flex">
+        <div className="ratio ratio-4x3 position-relative d-flex">
           <video autoplay='true' loop muted playsinline preload="none" className="video-element" poster="https://8231514.fs1.hubspotusercontent-na1.net/hubfs/8231514/01%20Home%20Page%20images/1.1.%20New%20home%20page/hero-video-poster-image.webp">
             <source src="https://8231514.fs1.hubspotusercontent-na1.net/hubfs/8231514/01%20Home%20Page%20images/1.4%20Home%20Page%20Videos/1077607553-hd_compressed_3_1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="position-absolute d-flex align-items-center text-center justify-content-center ms-2" data-aos="fade-up" data-aos-delay="500" style={{ color: 'white' }}>
             <div>
-              <h1 style={{ fontSize: '60px' }} className='fs-1 fs-md-2 fs-md-1'>Empowering Growth with Seamless Technical Solutions</h1>
-              <p className='mt-md-5 fs-4 fs-md-4 fs-md-1' style={{ fontSize: '28px' }}>Your trusted Partner for Maximizing Impact and Results</p>
+              <h1 className='ms-md-5 me-md-5 fw-bold fs-md-1 fs-3'>Empowering Growth with Seamless Technical Solutions</h1>
+              <p className='mt-md-5 fs-4' style={{ fontSize: '28px' }}>Your trusted Partner for Maximizing Impact and Results</p>
             </div>
           </div>
         </div>
