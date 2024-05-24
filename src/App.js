@@ -91,22 +91,22 @@ function App() {
       <div className="container-fluid mt-2  pb-5">
         <div className='row row-cols-md-4 row-cols-2 border p-0 mt-2'>
           <div className="col text-center border p-1">
-            <img src={aws} alt='' />
+            <img src={aws} alt='' className='img-fluid'/>
           </div>
           <div className="col text-center border p-1">
-            <img src={hubspot} alt='' />
+            <img src={hubspot} alt='' className='img-fluid'/>
           </div>
           <div className="col text-center border p-1">
-            <img src={cloud} alt='' />
+            <img src={cloud} alt='' className='img-fluid'/>
           </div>
           <div className="col text-center border p-1">
-            <img src={node} alt='' />
+            <img src={node} alt='' className='img-fluid'/>
           </div>
           <div className="col offset-md-3 text-center border p-3">
-            <img src={reactNative} alt='' />
+            <img src={reactNative} alt='' className='img-fluid'/>
           </div>
           <div className="col text-center border p-3">
-            <img src={react} alt='' />
+            <img src={react} alt='' className='img-fluid'/>
           </div>
           <div className="col-12 col-md-3 d-flex align-items-center justify-content-center border p-3" style={{ color: '#282E78' }}>
             View all <span className='ms-2'><FaArrowRightLong /></span>
