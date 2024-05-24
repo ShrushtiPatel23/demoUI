@@ -29,12 +29,12 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 function App() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid-md'>
 
       {/* Slide - 1 */}
-      <div className='row-md'>
-        <nav className="navbar navbar-expand-lg fixed-top navbar-dark black col-md p-2">
-          <div className="offset-1 container-fluid">
+      <div className='row'>
+        <nav className="navbar navbar-expand-md fixed-top navbar-dark black p-2">
+          <div className="offset-md-1 container-fluid">
             <a class="navbar-brand" href="#">
               <img src={logo} alt='' width="35" height="40" />
               <span className='ms-2'><a class="navbar-brand ms-0">Chimera Prime</a></span>
@@ -43,7 +43,7 @@ function App() {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav small me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav small me-auto mb-2 mb-md-0">
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Services
@@ -71,16 +71,16 @@ function App() {
           </div>
         </nav>
       </div>
-      <div className='row'>
-        <div className="ratio ratio-16x9 position-relative d-lg-flex">
+      <div className='row mt-5 mt-md-0'>
+        <div className="ratio ratio-16x9 position-relative d-flex">
           <video autoplay='true' loop muted playsinline preload="none" className="video-element" poster="https://8231514.fs1.hubspotusercontent-na1.net/hubfs/8231514/01%20Home%20Page%20images/1.1.%20New%20home%20page/hero-video-poster-image.webp">
             <source src="https://8231514.fs1.hubspotusercontent-na1.net/hubfs/8231514/01%20Home%20Page%20images/1.4%20Home%20Page%20Videos/1077607553-hd_compressed_3_1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="position-absolute d-flex align-items-center text-center justify-content-center ms-2" data-aos="fade-up" data-aos-delay="500" style={{ color: 'white' }}>
             <div>
-              <h1 style={{ fontSize: '60px' }} className='fs-1 fs-lg-2 fs-lg-1'>Empowering Growth with Seamless Technical Solutions</h1>
-              <p className='mt-md-5 fs-4 fs-lg-4 fs-lg-1' style={{ fontSize: '28px' }}>Your trusted Partner for Maximizing Impact and Results</p>
+              <h1 style={{ fontSize: '60px' }} className='fs-1 fs-md-2 fs-md-1'>Empowering Growth with Seamless Technical Solutions</h1>
+              <p className='mt-md-5 fs-4 fs-md-4 fs-md-1' style={{ fontSize: '28px' }}>Your trusted Partner for Maximizing Impact and Results</p>
             </div>
           </div>
         </div>
@@ -134,9 +134,9 @@ function App() {
 
       <div className="row flex-column-reverse flex-md-row mb-5 mt-2 mt-md-0">
         <div className="col-12 col-md-5 offset-md-2 d-flex flex-column align-items-start justify-content-center mb-5">
-          <h5 className='text-wrap ms-5 fs-md-3 fs-2 mt-5' style={{ width: '20rem', color: '#080E4B' }}>HubSpot Services for Marketing Agencies</h5>
-          <p className='mt-1 text-wrap ms-5' style={{ fontSize: '15px', width: '25rem' }}>HubSport services include Marketing Hub, Sales Hub, Service Hub, CMS Hub, Operation Hub, and Onboarding.</p>
-          <p style={{ color: '#282E78', fontSize: '15px' }} className='mb-5 ms-5'>View HubSpot <FaArrowRightLong /></p>
+          <h5 className='text-wrap ms-md-5 ms-2 fs-md-3 fs-2 mt-5' style={{ width: '20rem', color: '#080E4B' }}>HubSpot Services for Marketing Agencies</h5>
+          <p className='mt-1 text-wrap ms-md-5 ms-2' style={{ fontSize: '15px', width: '20rem' }}>HubSport services include Marketing Hub, Sales Hub, Service Hub, CMS Hub, Operation Hub, and Onboarding.</p>
+          <p style={{ color: '#282E78', fontSize: '15px' }} className='mb-5 ms-md-5 ms-2'>View HubSpot <FaArrowRightLong /></p>
         </div>
         <div className='col-md-5 col-12 p-0' >
           <img className='img-fluid' src={slide4} alt='' width='100%' height='100%' />
